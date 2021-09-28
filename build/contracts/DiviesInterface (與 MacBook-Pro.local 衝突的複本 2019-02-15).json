@@ -1,0 +1,167 @@
+{
+  "contractName": "DiviesInterface",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "deposit",
+      "outputs": [],
+      "payable": true,
+      "stateMutability": "payable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "sourceMap": "",
+  "deployedSourceMap": "",
+  "source": "pragma solidity ^0.4.24;\n\ninterface DiviesInterface {\n    function deposit() external payable;\n}",
+  "sourcePath": "/Users/Jimmy/Dropbox/awesome/ethereum/fomo_truffle/contracts/interface/DiviesInterface.sol",
+  "ast": {
+    "absolutePath": "/Users/Jimmy/Dropbox/awesome/ethereum/fomo_truffle/contracts/interface/DiviesInterface.sol",
+    "exportedSymbols": {
+      "DiviesInterface": [
+        7537
+      ]
+    },
+    "id": 7538,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 7533,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".24"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:6"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "documentation": null,
+        "fullyImplemented": false,
+        "id": 7537,
+        "linearizedBaseContracts": [
+          7537
+        ],
+        "name": "DiviesInterface",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": null,
+            "documentation": null,
+            "id": 7536,
+            "implemented": false,
+            "isConstructor": false,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "deposit",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 7534,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "74:2:6"
+            },
+            "payable": true,
+            "returnParameters": {
+              "id": 7535,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "93:0:6"
+            },
+            "scope": 7537,
+            "src": "58:36:6",
+            "stateMutability": "payable",
+            "superFunction": null,
+            "visibility": "external"
+          }
+        ],
+        "scope": 7538,
+        "src": "26:70:6"
+      }
+    ],
+    "src": "0:96:6"
+  },
+  "legacyAST": {
+    "absolutePath": "/Users/Jimmy/Dropbox/awesome/ethereum/fomo_truffle/contracts/interface/DiviesInterface.sol",
+    "exportedSymbols": {
+      "DiviesInterface": [
+        7537
+      ]
+    },
+    "id": 7538,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 7533,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".24"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:6"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "documentation": null,
+        "fullyImplemented": false,
+        "id": 7537,
+        "linearizedBaseContracts": [
+          7537
+        ],
+        "name": "DiviesInterface",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": null,
+            "documentation": null,
+            "id": 7536,
+            "implemented": false,
+            "isConstructor": false,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "deposit",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 7534,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "74:2:6"
+            },
+            "payable": true,
+            "returnParameters": {
+              "id": 7535,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "93:0:6"
+            },
+            "scope": 7537,
+            "src": "58:36:6",
+            "stateMutability": "payable",
+            "superFunction": null,
+            "visibility": "external"
+          }
+        ],
+        "scope": 7538,
+        "src": "26:70:6"
+      }
+    ],
+    "src": "0:96:6"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.4.24+commit.e67f0147.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "2.0.1",
+  "updatedAt": "2019-02-13T03:48:55.093Z"
+}
